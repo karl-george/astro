@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Button Animation */
+@property --border-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: '<angle>';
+}
+
 @layer base {
   html {
     @apply bg-bg;
