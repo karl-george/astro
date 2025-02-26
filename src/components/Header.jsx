@@ -32,7 +32,7 @@ const Header = () => {
 
           {/* Nav Menu */}
           <nav className='flex'>
-            <ul className='flex'>
+            <ul className='hidden lg:flex'>
               <li className='space-x-8 text-t3 text-lg'>
                 <NavLink title={'Product'} />
                 <NavLink title={'Why Us'} />
@@ -42,7 +42,7 @@ const Header = () => {
           </nav>
 
           {/* Buttons */}
-          <div className='flex gap-3'>
+          <div className='gap-3 hidden lg:flex'>
             <Button doesGlow={true} containerClasName={'bg-buttonGreen'}>
               Get Started
             </Button>
